@@ -1,0 +1,10 @@
+{
+  "strict": [2, "global"],
+  "global-strict": [0, "always"],
+  "extends": "airbnb/base",
+  "env": {
+    "es6": true,
+    "mocha": true,
+    "node": true
+  }
+}

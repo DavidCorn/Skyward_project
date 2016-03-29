@@ -30,7 +30,7 @@ setupPassport(app);
 app.use('/', routes);
 app.use('/users/login', login);
 app.use('/users/logout', logout);
-app.use('/users/register', register);
+app.use('/signup', register);
 
 app.use((req, res, next) => {
   const err = new Error('Not Found');

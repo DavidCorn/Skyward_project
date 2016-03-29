@@ -3,22 +3,23 @@
     position: fixed;
 }
 
+
 #logbox {
     padding: 50px;
     left: 150px;
     margin: 50px auto;
     width: 400px;
     
-    background-color: #fff;
     -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    background-color: white;
 }
 
 h1 {
     text-align: center;
     font-size: 200%;
-    color: dodgerblue;
+    color: red;
     font-weight: 3000;
 }
 
@@ -38,7 +39,7 @@ h1, input {
 
 .input:focus {
     outline: none;
-    border-bottom-color: dodgerblue !important;
+    border-bottom-color: red !important;
 }
 .input:hover {
     border-bottom-color: #dcdcdc;
@@ -54,7 +55,7 @@ h1, input {
     display: block;
     margin: 30px auto 30px;
     color: white;
-    background-color: dodgerblue;
+    background-color: red;
     border: none;
 }
 .inputButton:hover {

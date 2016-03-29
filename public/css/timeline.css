@@ -1,0 +1,55 @@
+/*
+ * timeline
+ */
+body { 
+  padding-top: 100px; 
+}
+
+.my-text-center {
+  text-align:center;
+  vertical-align: text-center;
+}
+
+.borderless li {
+    border-left: none;
+    border-right: none;
+}
+
+/*
+ * emoji
+ */
+.twa.my-twa-size {
+  height: 2em;
+  width: 2em;
+  background-size: 2em 2em;
+}
+
+/*
+ * round button to find partner
+ */
+.btn-circle {
+  border-radius: 50%;
+}
+
+.btn-xl {
+  width: 100%;
+  height: 100%;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.btn-onmouseup {
+  background-color:orange;
+}
+
+.btn-onmousedown {
+  background-color:red;
+}
+  
+.fixed-bottom {
+    position: fixed;
+    bottom:2%;
+    margin: auto;
+    left: 0;
+    right: 0;
+ }

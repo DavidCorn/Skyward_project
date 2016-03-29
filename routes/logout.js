@@ -3,8 +3,8 @@ const router = new express.Router();
 const JoinController = require('../controllers/JoinController');
 
 const controller = new JoinController();
-router.post('/', (req) => {
-  controller.logout(req);
+router.post('/', (req, res) => {
+  controller.logout(req, res);
 });
 
 module.exports = router;

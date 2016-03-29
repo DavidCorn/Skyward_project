@@ -49,8 +49,9 @@ class JoinController {
     return user.save();
   }
 
-  logout(req) {
+  logout(req, res) {
     console.log(`${this.constructor.name}: user(${req.body.username}) logout`);
+    res.send({ state: 'success', message: 'logout success' });
   }
 }
 

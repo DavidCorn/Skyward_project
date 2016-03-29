@@ -14,10 +14,6 @@ function setup(app) {
   passport.deserializeUser((username, done) => {
     User.findOne({ name: username }).exec()
       .then((user) => {
-        if (user === null) {
-          done(new Error('Wrong user name.'));
-        }
-
         done(null, user);
       });
   })

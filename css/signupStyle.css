@@ -1,14 +1,17 @@
 .container {
     z-index: 1;
-    position: fixed;
+    position: relative;
+    text-align: center;
 }
 
 
 #logbox {
-    padding: 50px;
-    left: 150px;
-    margin: 50px auto;
-    width: 400px;
+    width: 600px;
+    height: 700px;
+    top: 400px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
     
     -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
@@ -17,18 +20,24 @@
 }
 
 h1 {
-    text-align: center;
+    position: relative;
+    top: 50px;
     font-size: 200%;
     color: red;
     font-weight: 3000;
+    margin-bottom: 50px;
 }
 
 h1, input {
     font-family: "Open Sans", Helvetica, sans-serif;
 }
 
+.container {
+    text-align: center;
+}
+
 .input {
-    width: 75%;
+    width: 350px;
     height: 50px;
     display: block;
     margin: 0 auto 15px;
@@ -50,7 +59,7 @@ h1, input {
 
 .inputButton {
     position: relative;
-    width: 85%;
+    width: 80%;
     height: 50px;
     display: block;
     margin: 30px auto 30px;

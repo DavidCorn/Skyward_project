@@ -19,44 +19,25 @@
             
         <div class="grad"></div>
         
-        <div class="container">
-            <div id="logbox">
+        <div class="container" id="logbox">
                 <form id="signup" method="post" action="/signup">
-                    <h1>create an account</h1>
-                    <table style="width:100%">
-                        <tr>
-                            <th>Username:</th>
-                            <td><input name="user[name]" type="text" placeholder="What's your username?" autofocus="autofocus" required="required" class="input pass"/></td>
-                        </tr>
-                        <tr>
-                            <th>Password:</th>
-                            <td><input name="user[password]" type="password" placeholder="more than 6 letters" required="required" class="input pass"/></td>
-                        </tr>
-                        <tr>
-                            <th>Confirm:</th>
-                            <td><input name="user[password2]" type="password" placeholder="re-enter password" required="required" class="input pass"/></td>
-                        </tr>
-                        <tr>
-                            <th>Email:</th>
-                            <td><input name="user[email]" type="email" placeholder="example@example.com" class="input pass"/></td>
-                        </tr>
-                        <tr>
-                            <th>Gender:</th>
-                            <td>
-                                <div class="radio">
-                                    <label class="radio-inline"><input type="radio" name="gender"> Male</label>
-                                    <label class="radio-inline"><input type="radio" name="gender"> Female</label>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                    
+                    <h1>Join Skywards!</h1>
+                    <br>
+                    <br>
+                    <input name="user[name]" type="text" placeholder="What's your username?" autofocus="autofocus" required="required" class="input pass"/></td>
+                    <input name="user[password]" type="password" placeholder="more than 6 letters" required="required" class="input pass"/>
+                    <input name="user[password2]" type="password" placeholder="re-enter password" required="required" class="input pass"/>
+                    <input name="user[email]" type="email" placeholder="example@example.com" class="input pass"/>
+                    <div class="radio">
+                        <label class="radio-inline"><input type="radio" name="gender"> Male</label>
+                        <label class="radio-inline"><input type="radio" name="gender"> Female</label>
+                        <label class="radio-inline"><input type="radio" name="gender"> Prefer not to mention</label>
+                    </div>
                     <input type="submit" value="Sign up" class="inputButton"/>
                     <div class="text-center">
                         already have an account? <a href="index.html" id="loginId">login</a>
                     </div>
                 </form>
-            </div>
         </div>
     </body>
 </html>

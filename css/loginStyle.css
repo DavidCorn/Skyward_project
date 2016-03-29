@@ -26,10 +26,12 @@ body{
 
 img {
     z-index: 1;
-    position: fixed;
-    top: 250px;
-    right: 750px;
-    width: 200px;
+    position: relative;
+    top: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
 }
 
 .row {
@@ -37,21 +39,20 @@ img {
     position: fixed;
 }
 
-.makeBlue {
-    z-index: 1;
-    position: fixed;
-    color: dodgerblue;
-    top: 410px;
-    left: 750px;
+.makeGray {
+    z-index: 3;
+    position: relative;
+    color: lightgray;
+    top: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 230%;
 }
 
-.makeGray {
-    z-index: 1;
-    position: fixed;
-    color: lightgray;
-    top: 410px;
-    left: 590px;
+.makeGray a {
+    color: dodgerblue;
 }
+
 
 .grad{
 	position: absolute;
@@ -67,54 +68,56 @@ img {
 }
 
 .login{
-	position: absolute;
-	top: calc(50% - 90px);
-	left: calc(50% - 50px);
-	height: 150px;
-	width: 350px;
+    top: 400px;
+    position: relative;
 	z-index: 2;
 }
 
-.login input[type=text]{
-	width: 250px;
-	height: 30px;
+.login input[type=text] {
+	width: 450px;
+	height: 60px;
 	background: transparent;
 	border: 1px solid rgba(255,255,255,0.6);
 	border-radius: 2px;
 	color: #fff;
 	font-family: 'Exo', sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 400;
 	padding: 4px;
 }
 
 .login input[type=password]{
-	width: 250px;
-	height: 30px;
+	width: 450px;
+	height: 60px;
 	background: transparent;
 	border: 1px solid rgba(255,255,255,0.6);
 	border-radius: 2px;
 	color: #fff;
 	font-family: 'Exo', sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 400;
 	padding: 4px;
-	margin-top: 10px;
+	margin-top: 15px;
 }
 
 .login input[type=button]{
-	width: 260px;
-	height: 35px;
+	width: 360px;
+	height: 45px;
 	background: #fff;
 	border: 1px solid #fff;
 	cursor: pointer;
 	border-radius: 2px;
 	color: #a18d6c;
 	font-family: 'Exo', sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 400;
 	padding: 6px;
-	margin-top: 10px;
+	margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.rememberMe {
+    font-size: 20px;
 }
 
 .login input[type=button]:hover{

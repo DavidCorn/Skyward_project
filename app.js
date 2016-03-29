@@ -61,5 +61,6 @@ const server = http.createServer(app);
 
 app.set('port', process.env.PORT || 3001);
 server.listen(app.get('port'));
+console.log("server is listening on port 3001");
 
 module.exports = app;

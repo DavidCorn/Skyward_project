@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>SignUpPage</title>
+        
+        <link href="css/loginStyle.css" rel="stylesheet">
+        <link href="css/bootstrap-theme.css" rel="stylesheet">
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.css" rel="stylesheet">
+        <link href="css/bootstrap-social.css" rel="stylesheet">
+        <link href="css/signupStyle.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <!-- backgound image -->
+        <div class="body"></div>
+            
+        <div class="grad"></div>
+        
+        <div class="container">
+            <div id="logbox">
+                <form id="signup" method="post" action="/signup">
+                    <h1>create an account</h1>
+                    <table style="width:100%">
+                        <tr>
+                            <th>Username:</th>
+                            <td><input name="user[name]" type="text" placeholder="What's your username?" autofocus="autofocus" required="required" class="input pass"/></td>
+                        </tr>
+                        <tr>
+                            <th>Password:</th>
+                            <td><input name="user[password]" type="password" placeholder="more than 6 letters" required="required" class="input pass"/></td>
+                        </tr>
+                        <tr>
+                            <th>Confirm:</th>
+                            <td><input name="user[password2]" type="password" placeholder="re-enter password" required="required" class="input pass"/></td>
+                        </tr>
+                        <tr>
+                            <th>Email:</th>
+                            <td><input name="user[email]" type="email" placeholder="example@example.com" class="input pass"/></td>
+                        </tr>
+                        <tr>
+                            <th>Gender:</th>
+                            <td>
+                                <div class="radio">
+                                    <label class="radio-inline"><input type="radio" name="gender"> Male</label>
+                                    <label class="radio-inline"><input type="radio" name="gender"> Female</label>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    <input type="submit" value="Sign up" class="inputButton"/>
+                    <div class="text-center">
+                        already have an account? <a href="index.html" id="loginId">login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
